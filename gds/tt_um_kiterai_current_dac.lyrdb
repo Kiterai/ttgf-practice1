@@ -4765,6 +4765,17 @@
    <references>
    </references>
   </cell>
+  <cell>
+   <name>nfet$1</name>
+   <variant/>
+   <layout-name>nfet$1</layout-name>
+   <references>
+    <ref>
+     <parent>tt_um_kiterai_current_dac</parent>
+     <trans>r0 *1 318.55,9.15</trans>
+    </ref>
+   </references>
+  </cell>
  </cells>
  <items>
   <item>
@@ -4849,6 +4860,18 @@
    <image/>
    <values>
     <value>polygon: (0,0;0,325.36;346.64,325.36;346.64,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.14_LV'</category>
+   <cell>nfet$1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,0.44;1.44,0.44;1.44,0)</value>
    </values>
   </item>
  </items>
