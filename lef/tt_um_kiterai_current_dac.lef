@@ -431,18 +431,6 @@ MACRO tt_um_kiterai_current_dac
         RECT 4.000 5.000 6.000 320.360 ;
     END
   END VGND
-  OBS
-      LAYER Pwell ;
-        RECT 32.550 14.250 33.990 15.220 ;
-        RECT 34.750 13.600 36.190 15.120 ;
-      LAYER Metal1 ;
-        RECT 32.680 14.620 33.020 14.850 ;
-        RECT 33.520 14.620 33.860 14.850 ;
-        RECT 35.300 14.705 35.640 14.935 ;
-        RECT 34.880 14.245 35.220 14.475 ;
-        RECT 35.720 14.245 36.060 14.475 ;
-        RECT 35.300 13.785 35.640 14.015 ;
-  END
 END tt_um_kiterai_current_dac
 END LIBRARY
 
