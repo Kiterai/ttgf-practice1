@@ -1,295 +1,263 @@
-* Extracted by KLayout with GF180MCU LVS runset on : 19/06/2026 06:59
+* Extracted by KLayout with GF180MCU LVS runset on : 19/06/2026 08:50
 
 * cell tt_um_kiterai_current_dac
 * pin SUB
 * pin ua[0]
-.SUBCKT tt_um_kiterai_current_dac SUB ua[0]
-* device instance $1 r0 *1 330.77,25.87 nfet_03v3
-M$1 \$52 \$I239 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* pin ui_in[0]
+* pin ui_in[1]
+* pin ui_in[2]
+* pin ui_in[3]
+.SUBCKT tt_um_kiterai_current_dac SUB ua[0] ui_in[0] ui_in[1] ui_in[2] ui_in[3]
+* device instance $1 r0 *1 330.77,26.12 nfet_03v3
+M$1 \$72 \$I93 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $2 r0 *1 326.17,26.12 nfet_03v3
+M$2 \$69 \$I91 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $3 r0 *1 330.77,24.62 nfet_03v3
+M$3 \$72 \$I85 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $4 r0 *1 326.17,24.62 nfet_03v3
+M$4 \$69 \$I83 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $5 r0 *1 330.77,23.12 nfet_03v3
+M$5 \$59 ui_in[3] ua[0] SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $6 r0 *1 326.17,23.12 nfet_03v3
+M$6 \$56 ui_in[0] ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $8 r0 *1 326.17,21.62 nfet_03v3
+M$8 \$56 ui_in[1] ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $9 r0 *1 330.77,20.12 nfet_03v3
+M$9 \$48 \$61 ua[0] SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $10 r0 *1 326.17,20.12 nfet_03v3
+M$10 \$45 ui_in[3] ua[0] SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $13 r0 *1 330.77,17.12 nfet_03v3
+M$13 \$35 ui_in[3] ua[0] SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $14 r0 *1 326.17,17.12 nfet_03v3
+M$14 \$33 \$I44 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $16 r0 *1 326.17,15.62 nfet_03v3
+M$16 \$33 ui_in[1] ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $17 r0 *1 330.77,14.12 nfet_03v3
+M$17 \$27 ui_in[2] ua[0] SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $18 r0 *1 326.17,14.12 nfet_03v3
+M$18 \$24 ui_in[3] ua[0] SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $21 r0 *1 330.77,11.12 nfet_03v3
+M$21 \$18 \$I14 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $22 r0 *1 326.17,11.12 nfet_03v3
+M$22 \$15 \$I12 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $23 r0 *1 330.77,9.62 nfet_03v3
+M$23 \$18 \$I6 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $24 r0 *1 326.17,9.62 nfet_03v3
+M$24 \$15 \$I4 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $25 r0 *1 328.47,26.12 nfet_03v3
+M$25 ua[0] \$I92 \$69 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+* device instance $26 r0 *1 323.87,26.12 nfet_03v3
+M$26 ua[0] \$I90 \$66 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $2 r0 *1 326.17,25.87 nfet_03v3
-M$2 \$50 \$I240 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $27 r0 *1 328.47,24.62 nfet_03v3
+M$27 ua[0] \$I84 \$69 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $3 r0 *1 330.77,24.37 nfet_03v3
-M$3 \$52 \$I241 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $28 r0 *1 323.87,24.62 nfet_03v3
+M$28 ua[0] \$I82 \$66 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $4 r0 *1 326.17,24.37 nfet_03v3
-M$4 \$50 \$I242 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $29 r0 *1 328.47,23.12 nfet_03v3
+M$29 ua[0] ui_in[3] \$56 SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $30 r0 *1 323.87,23.12 nfet_03v3
+M$30 ua[0] \$75 \$54 SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $33 r0 *1 328.47,20.12 nfet_03v3
+M$33 ua[0] ui_in[1] \$45 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $5 r0 *1 330.77,22.87 nfet_03v3
-M$5 \$45 \$I243 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $34 r0 *1 323.87,20.12 nfet_03v3
+M$34 ua[0] ui_in[3] \$42 SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $35 r0 *1 328.47,18.62 nfet_03v3
+M$35 ua[0] \$I53 \$45 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $6 r0 *1 326.17,22.87 nfet_03v3
-M$6 \$43 \$I244 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $37 r0 *1 328.47,17.12 nfet_03v3
+M$37 ua[0] ui_in[3] \$33 SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $38 r0 *1 323.87,17.12 nfet_03v3
+M$38 ua[0] \$51 \$30 SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $41 r0 *1 328.47,14.12 nfet_03v3
+M$41 ua[0] ui_in[1] \$24 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $7 r0 *1 330.77,21.37 nfet_03v3
-M$7 \$45 \$I245 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $42 r0 *1 323.87,14.12 nfet_03v3
+M$42 ua[0] ui_in[3] \$21 SUB nfet_03v3 L=0.56U W=0.88U AS=0.3872P AD=0.3872P
++ PS=3.52U PD=3.52U
+* device instance $43 r0 *1 328.47,12.62 nfet_03v3
+M$43 ua[0] ui_in[0] \$24 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $8 r0 *1 326.17,21.37 nfet_03v3
-M$8 \$43 \$I246 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $45 r0 *1 328.47,11.12 nfet_03v3
+M$45 ua[0] \$I13 \$15 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $9 r0 *1 330.77,19.87 nfet_03v3
-M$9 \$38 \$I247 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $46 r0 *1 323.87,11.12 nfet_03v3
+M$46 ua[0] \$I11 \$13 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $10 r0 *1 326.17,19.87 nfet_03v3
-M$10 \$36 \$I248 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $47 r0 *1 328.47,9.62 nfet_03v3
+M$47 ua[0] \$I5 \$15 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $11 r0 *1 330.77,18.37 nfet_03v3
-M$11 \$38 \$I249 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $48 r0 *1 323.87,9.62 nfet_03v3
+M$48 ua[0] \$I3 \$13 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $12 r0 *1 326.17,18.37 nfet_03v3
-M$12 \$36 \$I250 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $49 r0 *1 319.27,9.62 nfet_03v3
+M$49 \$12 \$I1 \$I267 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $13 r0 *1 330.77,16.87 nfet_03v3
-M$13 \$31 \$I251 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $50 r0 *1 321.57,9.62 nfet_03v3
+M$50 \$13 \$I2 \$12 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $14 r0 *1 326.17,16.87 nfet_03v3
-M$14 \$29 \$I252 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $51 r0 *1 321.57,11.12 nfet_03v3
+M$51 \$13 \$I10 \$12 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $15 r0 *1 330.77,15.37 nfet_03v3
-M$15 \$31 \$I253 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $52 r0 *1 319.27,11.12 nfet_03v3
+M$52 \$12 \$I9 \$I274 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $16 r0 *1 326.17,15.37 nfet_03v3
-M$16 \$29 \$I254 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $53 r0 *1 333.07,11.12 nfet_03v3
+M$53 \$19 \$I15 \$18 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $17 r0 *1 330.77,13.87 nfet_03v3
-M$17 \$24 \$I255 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $54 r0 *1 333.07,9.62 nfet_03v3
+M$54 \$19 \$I7 \$18 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $18 r0 *1 326.17,13.87 nfet_03v3
-M$18 \$22 \$I256 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $55 r0 *1 335.37,11.12 nfet_03v3
+M$55 \$I186 \$I16 \$19 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $19 r0 *1 330.77,12.37 nfet_03v3
-M$19 \$24 \$I257 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $56 r0 *1 335.37,9.62 nfet_03v3
+M$56 \$I178 \$I8 \$19 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $20 r0 *1 326.17,12.37 nfet_03v3
-M$20 \$22 \$I258 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $57 r0 *1 321.57,14.12 nfet_03v3
+M$57 \$21 \$I26 \$20 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $21 r0 *1 330.77,10.87 nfet_03v3
-M$21 \$17 \$I259 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $58 r0 *1 321.57,12.62 nfet_03v3
+M$58 \$21 \$I18 \$20 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $22 r0 *1 326.17,10.87 nfet_03v3
-M$22 \$15 \$I260 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $59 r0 *1 319.27,14.12 nfet_03v3
+M$59 \$20 \$I25 \$I290 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $23 r0 *1 330.77,9.37 nfet_03v3
-M$23 \$17 \$I261 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $60 r0 *1 319.27,12.62 nfet_03v3
+M$60 \$20 \$I17 \$I282 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $24 r0 *1 326.17,9.37 nfet_03v3
-M$24 \$15 \$I262 ua[0] SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $61 r0 *1 333.07,14.12 nfet_03v3
+M$61 \$28 \$I31 \$27 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $25 r0 *1 328.47,25.87 nfet_03v3
-M$25 ua[0] \$I263 \$50 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $62 r0 *1 333.07,12.62 nfet_03v3
+M$62 \$28 \$I23 \$27 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $26 r0 *1 323.87,25.87 nfet_03v3
-M$26 ua[0] \$I264 \$48 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $63 r0 *1 335.37,14.12 nfet_03v3
+M$63 \$I202 \$I32 \$28 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $27 r0 *1 328.47,24.37 nfet_03v3
-M$27 ua[0] \$I265 \$50 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $64 r0 *1 335.37,12.62 nfet_03v3
+M$64 \$I194 \$I24 \$28 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $28 r0 *1 323.87,24.37 nfet_03v3
-M$28 ua[0] \$I266 \$48 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $65 r0 *1 321.57,17.12 nfet_03v3
+M$65 \$30 \$I42 \$29 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $29 r0 *1 328.47,22.87 nfet_03v3
-M$29 ua[0] \$I267 \$43 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $66 r0 *1 321.57,15.62 nfet_03v3
+M$66 \$30 \$I34 \$29 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $30 r0 *1 323.87,22.87 nfet_03v3
-M$30 ua[0] \$I268 \$41 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $67 r0 *1 319.27,17.12 nfet_03v3
+M$67 \$29 \$I41 \$I306 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $31 r0 *1 328.47,21.37 nfet_03v3
-M$31 ua[0] \$I269 \$43 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $68 r0 *1 319.27,15.62 nfet_03v3
+M$68 \$29 \$I33 \$I298 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $32 r0 *1 323.87,21.37 nfet_03v3
-M$32 ua[0] \$I270 \$41 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $69 r0 *1 333.07,17.12 nfet_03v3
+M$69 \$36 \$I47 \$35 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $33 r0 *1 328.47,19.87 nfet_03v3
-M$33 ua[0] \$I271 \$36 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $70 r0 *1 333.07,15.62 nfet_03v3
+M$70 \$36 \$I39 \$35 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $34 r0 *1 323.87,19.87 nfet_03v3
-M$34 ua[0] \$I272 \$34 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $71 r0 *1 335.37,17.12 nfet_03v3
+M$71 \$I218 \$I48 \$36 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $35 r0 *1 328.47,18.37 nfet_03v3
-M$35 ua[0] \$I273 \$36 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $72 r0 *1 335.37,15.62 nfet_03v3
+M$72 \$I210 \$I40 \$36 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $36 r0 *1 323.87,18.37 nfet_03v3
-M$36 ua[0] \$I274 \$34 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $73 r0 *1 321.57,20.12 nfet_03v3
+M$73 \$42 \$I58 \$41 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $37 r0 *1 328.47,16.87 nfet_03v3
-M$37 ua[0] \$I275 \$29 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $74 r0 *1 321.57,18.62 nfet_03v3
+M$74 \$42 \$I50 \$41 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $38 r0 *1 323.87,16.87 nfet_03v3
-M$38 ua[0] \$I276 \$27 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $75 r0 *1 319.27,20.12 nfet_03v3
+M$75 \$41 \$I57 \$I322 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $39 r0 *1 328.47,15.37 nfet_03v3
-M$39 ua[0] \$I277 \$29 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $76 r0 *1 319.27,18.62 nfet_03v3
+M$76 \$41 \$I49 \$I314 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $40 r0 *1 323.87,15.37 nfet_03v3
-M$40 ua[0] \$I278 \$27 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $77 r0 *1 333.07,20.12 nfet_03v3
+M$77 \$49 \$I63 \$48 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $41 r0 *1 328.47,13.87 nfet_03v3
-M$41 ua[0] \$I279 \$22 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $78 r0 *1 333.07,18.62 nfet_03v3
+M$78 \$49 \$I55 \$48 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $42 r0 *1 323.87,13.87 nfet_03v3
-M$42 ua[0] \$I280 \$20 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $79 r0 *1 335.37,20.12 nfet_03v3
+M$79 \$I234 \$I64 \$49 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $43 r0 *1 328.47,12.37 nfet_03v3
-M$43 ua[0] \$I281 \$22 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $80 r0 *1 335.37,18.62 nfet_03v3
+M$80 \$I226 \$I56 \$49 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $44 r0 *1 323.87,12.37 nfet_03v3
-M$44 ua[0] \$I282 \$20 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $81 r0 *1 321.57,23.12 nfet_03v3
+M$81 \$54 \$I73 \$53 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $45 r0 *1 328.47,10.87 nfet_03v3
-M$45 ua[0] \$I283 \$15 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $82 r0 *1 321.57,21.62 nfet_03v3
+M$82 \$54 \$I66 \$53 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $46 r0 *1 323.87,10.87 nfet_03v3
-M$46 ua[0] \$I284 \$13 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $83 r0 *1 319.27,23.12 nfet_03v3
+M$83 \$53 \$I72 \$I338 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $47 r0 *1 328.47,9.37 nfet_03v3
-M$47 ua[0] \$I285 \$15 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $84 r0 *1 319.27,21.62 nfet_03v3
+M$84 \$53 \$I65 \$I330 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $48 r0 *1 323.87,9.37 nfet_03v3
-M$48 ua[0] \$I286 \$13 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $85 r0 *1 333.07,23.12 nfet_03v3
+M$85 \$60 \$I78 \$59 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $49 r0 *1 319.27,9.37 nfet_03v3
-M$49 \$12 \$I287 \$I144 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $86 r0 *1 333.07,21.62 nfet_03v3
+M$86 \$60 \$I70 \$59 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $50 r0 *1 321.57,9.37 nfet_03v3
-M$50 \$13 \$I288 \$12 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $87 r0 *1 335.37,23.12 nfet_03v3
+M$87 \$I250 \$I79 \$60 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $51 r0 *1 321.57,10.87 nfet_03v3
-M$51 \$13 \$I289 \$12 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $88 r0 *1 335.37,21.62 nfet_03v3
+M$88 \$I242 \$I71 \$60 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $52 r0 *1 319.27,10.87 nfet_03v3
-M$52 \$12 \$I290 \$I151 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $89 r0 *1 321.57,26.12 nfet_03v3
+M$89 \$66 \$I89 \$65 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $53 r0 *1 333.07,10.87 nfet_03v3
-M$53 \$18 \$I291 \$17 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $90 r0 *1 321.57,24.62 nfet_03v3
+M$90 \$66 \$I81 \$65 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $54 r0 *1 333.07,9.37 nfet_03v3
-M$54 \$18 \$I292 \$17 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $91 r0 *1 319.27,26.12 nfet_03v3
+M$91 \$65 \$I88 \$I354 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $55 r0 *1 335.37,10.87 nfet_03v3
-M$55 \$I63 \$I293 \$18 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $92 r0 *1 319.27,24.62 nfet_03v3
+M$92 \$65 \$I80 \$I346 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $56 r0 *1 335.37,9.37 nfet_03v3
-M$56 \$I55 \$I294 \$18 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $93 r0 *1 333.07,26.12 nfet_03v3
+M$93 \$73 \$I94 \$72 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $57 r0 *1 321.57,13.87 nfet_03v3
-M$57 \$20 \$I295 \$19 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $94 r0 *1 333.07,24.62 nfet_03v3
+M$94 \$73 \$I86 \$72 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $58 r0 *1 321.57,12.37 nfet_03v3
-M$58 \$20 \$I296 \$19 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $95 r0 *1 335.37,26.12 nfet_03v3
+M$95 \$I266 \$I95 \$73 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
-* device instance $59 r0 *1 319.27,13.87 nfet_03v3
-M$59 \$19 \$I297 \$I167 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $60 r0 *1 319.27,12.37 nfet_03v3
-M$60 \$19 \$I298 \$I159 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $61 r0 *1 333.07,13.87 nfet_03v3
-M$61 \$25 \$I299 \$24 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $62 r0 *1 333.07,12.37 nfet_03v3
-M$62 \$25 \$I300 \$24 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $63 r0 *1 335.37,13.87 nfet_03v3
-M$63 \$I79 \$I301 \$25 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $64 r0 *1 335.37,12.37 nfet_03v3
-M$64 \$I71 \$I302 \$25 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $65 r0 *1 321.57,16.87 nfet_03v3
-M$65 \$27 \$I303 \$26 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $66 r0 *1 321.57,15.37 nfet_03v3
-M$66 \$27 \$I304 \$26 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $67 r0 *1 319.27,16.87 nfet_03v3
-M$67 \$26 \$I305 \$I183 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $68 r0 *1 319.27,15.37 nfet_03v3
-M$68 \$26 \$I306 \$I175 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $69 r0 *1 333.07,16.87 nfet_03v3
-M$69 \$32 \$I307 \$31 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $70 r0 *1 333.07,15.37 nfet_03v3
-M$70 \$32 \$I308 \$31 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $71 r0 *1 335.37,16.87 nfet_03v3
-M$71 \$I95 \$I309 \$32 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $72 r0 *1 335.37,15.37 nfet_03v3
-M$72 \$I87 \$I310 \$32 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $73 r0 *1 321.57,19.87 nfet_03v3
-M$73 \$34 \$I311 \$33 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $74 r0 *1 321.57,18.37 nfet_03v3
-M$74 \$34 \$I312 \$33 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $75 r0 *1 319.27,19.87 nfet_03v3
-M$75 \$33 \$I313 \$I199 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $76 r0 *1 319.27,18.37 nfet_03v3
-M$76 \$33 \$I314 \$I191 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $77 r0 *1 333.07,19.87 nfet_03v3
-M$77 \$39 \$I315 \$38 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $78 r0 *1 333.07,18.37 nfet_03v3
-M$78 \$39 \$I316 \$38 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $79 r0 *1 335.37,19.87 nfet_03v3
-M$79 \$I111 \$I317 \$39 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $80 r0 *1 335.37,18.37 nfet_03v3
-M$80 \$I103 \$I318 \$39 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $81 r0 *1 321.57,22.87 nfet_03v3
-M$81 \$41 \$I319 \$40 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $82 r0 *1 321.57,21.37 nfet_03v3
-M$82 \$41 \$I320 \$40 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $83 r0 *1 319.27,22.87 nfet_03v3
-M$83 \$40 \$I321 \$I215 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $84 r0 *1 319.27,21.37 nfet_03v3
-M$84 \$40 \$I322 \$I207 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $85 r0 *1 333.07,22.87 nfet_03v3
-M$85 \$46 \$I323 \$45 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $86 r0 *1 333.07,21.37 nfet_03v3
-M$86 \$46 \$I324 \$45 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $87 r0 *1 335.37,22.87 nfet_03v3
-M$87 \$I127 \$I325 \$46 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $88 r0 *1 335.37,21.37 nfet_03v3
-M$88 \$I119 \$I326 \$46 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $89 r0 *1 321.57,25.87 nfet_03v3
-M$89 \$48 \$I327 \$47 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $90 r0 *1 321.57,24.37 nfet_03v3
-M$90 \$48 \$I328 \$47 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $91 r0 *1 319.27,25.87 nfet_03v3
-M$91 \$47 \$I329 \$I231 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $92 r0 *1 319.27,24.37 nfet_03v3
-M$92 \$47 \$I330 \$I223 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $93 r0 *1 333.07,25.87 nfet_03v3
-M$93 \$53 \$I331 \$52 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $94 r0 *1 333.07,24.37 nfet_03v3
-M$94 \$53 \$I332 \$52 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $95 r0 *1 335.37,25.87 nfet_03v3
-M$95 \$I143 \$I333 \$53 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
-+ PS=1.76U PD=1.76U
-* device instance $96 r0 *1 335.37,24.37 nfet_03v3
-M$96 \$I135 \$I334 \$53 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
+* device instance $96 r0 *1 335.37,24.62 nfet_03v3
+M$96 \$I258 \$I87 \$73 SUB nfet_03v3 L=0.56U W=0.44U AS=0.1936P AD=0.1936P
 + PS=1.76U PD=1.76U
 .ENDS tt_um_kiterai_current_dac

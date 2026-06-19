@@ -62,22 +62,8 @@ lab=in2}
 N 170 0 190 -0 {
 lab=in1}
 C {symbols/nfet_03v3.sym} 50 0 0 0 {name=M1
-L=0.28u
-W=0.22u
-nf=1
-m=1
-ad="'int((nf+1)/2) * W/nf * 0.18u'"
-pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
-as="'int((nf+2)/2) * W/nf * 0.18u'"
-ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
-nrd="'0.18u / W'" nrs="'0.18u / W'"
-sa=0 sb=0 sd=0
-model=nfet_03v3
-spiceprefix=X
-}
-C {symbols/nfet_03v3.sym} 210 0 0 0 {name=M2
-L=0.28u
-W=0.22u
+L=0.56u
+W=0.44u
 nf=1
 m=2
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -89,9 +75,9 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {symbols/nfet_03v3.sym} 370 0 0 0 {name=M3
-L=0.28u
-W=0.22u
+C {symbols/nfet_03v3.sym} 210 0 0 0 {name=M2
+L=0.56u
+W=0.44u
 nf=1
 m=4
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -103,11 +89,25 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {symbols/nfet_03v3.sym} 530 0 0 0 {name=M4
-L=0.28u
-W=0.22u
+C {symbols/nfet_03v3.sym} 370 0 0 0 {name=M3
+L=0.56u
+W=0.44u
 nf=1
 m=8
+ad="'int((nf+1)/2) * W/nf * 0.18u'"
+pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
+as="'int((nf+2)/2) * W/nf * 0.18u'"
+ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
+nrd="'0.18u / W'" nrs="'0.18u / W'"
+sa=0 sb=0 sd=0
+model=nfet_03v3
+spiceprefix=X
+}
+C {symbols/nfet_03v3.sym} 530 0 0 0 {name=M4
+L=0.56u
+W=0.44u
+nf=1
+m=16
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
 pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
 as="'int((nf+2)/2) * W/nf * 0.18u'"
