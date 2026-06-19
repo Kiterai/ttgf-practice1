@@ -1,4 +1,4 @@
-* Extracted by KLayout with GF180MCU LVS runset on : 20/06/2026 00:28
+* Extracted by KLayout with GF180MCU LVS runset on : 20/06/2026 00:34
 
 * cell tt_um_kiterai_current_dac
 * pin VGND
@@ -18,7 +18,7 @@ M$2 VGND \$17 \$12 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P PS=1.8U
 M$3 ua[0] \$18 VGND VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
 * device instance $4 r0 *1 326.17,281.855 nfet_03v3
-M$4 VGND \$19 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+M$4 VGND \$20 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
 * device instance $5 r0 *1 328.47,281.855 nfet_03v3
 M$5 ua[0] \$21 VGND VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
@@ -27,7 +27,7 @@ M$5 ua[0] \$21 VGND VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 M$6 VGND \$22 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
 * device instance $7 r0 *1 333.07,281.855 nfet_03v3
-M$7 \$13 \$20 VGND VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P PS=1.8U
+M$7 \$13 \$19 VGND VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P PS=1.8U
 + PD=1.8U
 * device instance $8 r0 *1 335.37,281.855 nfet_03v3
 M$8 \$14 \$15 \$13 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P PS=1.8U
