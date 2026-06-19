@@ -5,22 +5,6 @@
  <generator>drc: script='/home/user1/.ciel/ciel/gf180mcu/versions/e8daeda73ca8f5814dbc0b11d1d05802251a3750/gf180mcuD/libs.tech/klayout/tech/drc/gf180mcu.drc'</generator>
  <top-cell>tt_um_kiterai_current_dac</top-cell>
  <tags>
-  <tag>
-   <name>RATIO</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>DIODES_AREA</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>GATE_AREA</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>ANT_PERIMETER</name>
-   <description/>
-  </tag>
  </tags>
  <categories>
   <category>
@@ -4781,115 +4765,8 @@
    <references>
    </references>
   </cell>
-  <cell>
-   <name>nfet</name>
-   <variant/>
-   <layout-name>nfet</layout-name>
-   <references>
-    <ref>
-     <parent>tt_um_kiterai_current_dac</parent>
-     <trans>r0 *1 318.55,9.4</trans>
-    </ref>
-   </references>
-  </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'ANT.16_i_ANT.5'</category>
-   <cell>tt_um_kiterai_current_dac</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (328.19,12.4;328.19,12.86;328.75,12.86;328.75,12.4)</value>
-    <value>[#RATIO] float: 426.560170807</value>
-    <value>[#DIODES_AREA] float: 0</value>
-    <value>[#GATE_AREA] float: 0.5152</value>
-    <value>[#ANT_PERIMETER] float: 219.7638</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ANT.16_i_ANT.5'</category>
-   <cell>tt_um_kiterai_current_dac</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (325.89,22.9;325.89,23.36;326.45,23.36;326.45,22.9)</value>
-    <value>[#RATIO] float: 426.560170807</value>
-    <value>[#DIODES_AREA] float: 0</value>
-    <value>[#GATE_AREA] float: 0.5152</value>
-    <value>[#ANT_PERIMETER] float: 219.7638</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ANT.16_i_ANT.5'</category>
-   <cell>tt_um_kiterai_current_dac</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (314.975,128.1;314.975,129.7;315.2,129.7;315.2,325.3;316.53,325.3;316.53,325.36;316.83,325.36;316.83,325.3;318.2,325.3;318.2,129.7;321.2,129.7;321.2,128.1)</value>
-    <value>[#RATIO] float: 426.560170807</value>
-    <value>[#DIODES_AREA] float: 0</value>
-    <value>[#GATE_AREA] float: 0.5152</value>
-    <value>[#ANT_PERIMETER] float: 219.7638</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ANT.16_i_ANT.5'</category>
-   <cell>tt_um_kiterai_current_dac</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (330.49,12.4;330.49,12.86;331.05,12.86;331.05,12.4)</value>
-    <value>[#RATIO] float: 419.694875776</value>
-    <value>[#DIODES_AREA] float: 0</value>
-    <value>[#GATE_AREA] float: 0.5152</value>
-    <value>[#ANT_PERIMETER] float: 216.2268</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ANT.16_i_ANT.5'</category>
-   <cell>tt_um_kiterai_current_dac</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (330.49,13.9;330.49,14.36;331.05,14.36;331.05,13.9)</value>
-    <value>[#RATIO] float: 419.694875776</value>
-    <value>[#DIODES_AREA] float: 0</value>
-    <value>[#GATE_AREA] float: 0.5152</value>
-    <value>[#ANT_PERIMETER] float: 216.2268</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ANT.16_i_ANT.5'</category>
-   <cell>tt_um_kiterai_current_dac</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (300.6,128.15;300.6,325.3;301.97,325.3;301.97,325.36;302.27,325.36;302.27,325.3;303.6,325.3;303.6,128.15)</value>
-    <value>[#RATIO] float: 419.694875776</value>
-    <value>[#DIODES_AREA] float: 0</value>
-    <value>[#GATE_AREA] float: 0.5152</value>
-    <value>[#ANT_PERIMETER] float: 216.2268</value>
-   </values>
-  </item>
   <item>
    <tags/>
    <category>'PL.8'</category>
@@ -4972,66 +4849,6 @@
    <image/>
    <values>
     <value>polygon: (0,0;0,325.36;346.64,325.36;346.64,0)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'DF.14_LV'</category>
-   <cell>nfet</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (0,0;0,0.46;1.44,0.46;1.44,0)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.2a'</category>
-   <cell>tt_um_kiterai_current_dac</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (326.52,23.37;326.525,23.37)|(326.365,23.535;326.36,23.535)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.2a'</category>
-   <cell>tt_um_kiterai_current_dac</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (326.52,23.365;326.52,23.37)|(326.365,23.54;326.365,23.535)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.2a'</category>
-   <cell>tt_um_kiterai_current_dac</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (328.82,20.365;328.82,20.37)|(328.665,20.54;328.665,20.535)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M1.2a'</category>
-   <cell>tt_um_kiterai_current_dac</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (328.82,20.37;328.825,20.37)|(328.665,20.535;328.66,20.535)</value>
    </values>
   </item>
  </items>
