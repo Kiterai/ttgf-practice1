@@ -1,0 +1,22 @@
+** sch_path: /home/user1/tinytapeout/ttgf-practice1/xschem/current_dac.sch
+.subckt tt_um_kiterai_current_dac ui_in[0] ua[0] GND ui_in[1] ui_in[2] ui_in[3]
+*.ipin ui_in[0]
+*.iopin ua[0]
+*.iopin GND
+*.ipin ui_in[1]
+*.ipin ui_in[2]
+*.ipin ui_in[3]
+XM1 ua[0] ui_in[0] GND GND nfet_03v3 L=0.56u W=0.44u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u'
++ pd='2*int((nf+1)/2) * (W/nf + 0.18u)' ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W'
++ sa=0 sb=0 sd=0 m=2
+XM2 ua[0] ui_in[1] GND GND nfet_03v3 L=0.56u W=0.44u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u'
++ pd='2*int((nf+1)/2) * (W/nf + 0.18u)' ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W'
++ sa=0 sb=0 sd=0 m=4
+XM3 ua[0] ui_in[2] GND GND nfet_03v3 L=0.56u W=0.44u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u'
++ pd='2*int((nf+1)/2) * (W/nf + 0.18u)' ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W'
++ sa=0 sb=0 sd=0 m=8
+XM4 ua[0] ui_in[3] GND GND nfet_03v3 L=0.56u W=0.44u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u'
++ pd='2*int((nf+1)/2) * (W/nf + 0.18u)' ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W'
++ sa=0 sb=0 sd=0 m=16
+.ends
+.end
