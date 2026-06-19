@@ -1,4 +1,4 @@
-* Extracted by KLayout with GF180MCU LVS runset on : 19/06/2026 10:26
+* Extracted by KLayout with GF180MCU LVS runset on : 19/06/2026 10:39
 
 * cell tt_um_kiterai_current_dac
 * pin VGND
@@ -8,256 +8,256 @@
 * pin ui_in[2]
 * pin ui_in[3]
 .SUBCKT tt_um_kiterai_current_dac VGND ua[0] ui_in[0] ui_in[1] ui_in[2] ui_in[3]
-* device instance $1 r0 *1 330.77,298.355 nfet_03v3
-M$1 \$79 \$I145 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $1 r0 *1 319.27,281.855 nfet_03v3
+M$1 \$12 \$19 \$11 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P PS=1.8U
++ PD=1.8U
+* device instance $2 r0 *1 321.57,281.855 nfet_03v3
+M$2 \$13 \$20 \$12 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P PS=1.8U
++ PD=1.8U
+* device instance $3 r0 *1 323.87,281.855 nfet_03v3
+M$3 ua[0] \$21 \$13 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $2 r0 *1 326.17,298.355 nfet_03v3
-M$2 \$77 \$I143 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $4 r0 *1 326.17,281.855 nfet_03v3
+M$4 \$14 \$22 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $3 r0 *1 330.77,296.855 nfet_03v3
-M$3 \$79 \$I137 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $5 r0 *1 328.47,281.855 nfet_03v3
+M$5 ua[0] \$24 \$14 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $4 r0 *1 326.17,296.855 nfet_03v3
-M$4 \$77 \$I135 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $6 r0 *1 330.77,281.855 nfet_03v3
+M$6 \$15 \$25 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $5 r0 *1 330.77,295.355 nfet_03v3
-M$5 \$64 ui_in[3] ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $7 r0 *1 333.07,281.855 nfet_03v3
+M$7 \$16 \$23 \$15 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P PS=1.8U
++ PD=1.8U
+* device instance $8 r0 *1 335.37,281.855 nfet_03v3
+M$8 \$17 \$18 \$16 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P PS=1.8U
++ PD=1.8U
+* device instance $9 r0 *1 319.27,283.355 nfet_03v3
+M$9 \$12 \$33 \$27 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P PS=1.8U
++ PD=1.8U
+* device instance $10 r0 *1 321.57,283.355 nfet_03v3
+M$10 \$13 \$34 \$12 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $11 r0 *1 323.87,283.355 nfet_03v3
+M$11 ua[0] \$35 \$13 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $12 r0 *1 326.17,283.355 nfet_03v3
+M$12 \$14 \$36 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $13 r0 *1 328.47,283.355 nfet_03v3
+M$13 ua[0] \$32 \$14 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $14 r0 *1 330.77,283.355 nfet_03v3
+M$14 \$15 \$31 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $15 r0 *1 333.07,283.355 nfet_03v3
+M$15 \$16 \$30 \$15 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $16 r0 *1 335.37,283.355 nfet_03v3
+M$16 \$28 \$29 \$16 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $17 r0 *1 319.27,284.855 nfet_03v3
+M$17 \$38 \$44 \$37 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $18 r0 *1 321.57,284.855 nfet_03v3
+M$18 \$39 \$45 \$38 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $19 r0 *1 323.87,284.855 nfet_03v3
+M$19 ua[0] ui_in[3] \$39 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $6 r0 *1 326.17,295.355 nfet_03v3
-M$6 \$62 ui_in[0] ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $8 r0 *1 326.17,293.855 nfet_03v3
-M$8 \$62 ui_in[1] ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $9 r0 *1 330.77,292.355 nfet_03v3
-M$9 \$50 \$68 ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $20 r0 *1 326.17,284.855 nfet_03v3
+M$20 \$40 ui_in[3] ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $10 r0 *1 326.17,292.355 nfet_03v3
-M$10 \$48 ui_in[3] ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $21 r0 *1 328.47,284.855 nfet_03v3
+M$21 ua[0] ui_in[0] \$40 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $22 r0 *1 330.77,284.855 nfet_03v3
+M$22 \$41 ui_in[2] ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $13 r0 *1 330.77,289.355 nfet_03v3
-M$13 \$36 ui_in[3] ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $23 r0 *1 333.07,284.855 nfet_03v3
+M$23 \$42 \$47 \$41 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $24 r0 *1 335.37,284.855 nfet_03v3
+M$24 \$43 \$46 \$42 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $25 r0 *1 319.27,286.355 nfet_03v3
+M$25 \$38 \$51 \$48 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $26 r0 *1 321.57,286.355 nfet_03v3
+M$26 \$39 \$52 \$38 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $29 r0 *1 328.47,286.355 nfet_03v3
+M$29 ua[0] ui_in[1] \$40 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $31 r0 *1 333.07,286.355 nfet_03v3
+M$31 \$42 \$53 \$41 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $32 r0 *1 335.37,286.355 nfet_03v3
+M$32 \$49 \$50 \$42 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $33 r0 *1 319.27,287.855 nfet_03v3
+M$33 \$55 \$64 \$54 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $34 r0 *1 321.57,287.855 nfet_03v3
+M$34 \$56 \$65 \$55 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $35 r0 *1 323.87,287.855 nfet_03v3
+M$35 ua[0] \$61 \$56 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $14 r0 *1 326.17,289.355 nfet_03v3
-M$14 \$34 \$I96 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $36 r0 *1 326.17,287.855 nfet_03v3
+M$36 \$57 ui_in[1] ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $16 r0 *1 326.17,287.855 nfet_03v3
-M$16 \$34 ui_in[1] ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $17 r0 *1 330.77,286.355 nfet_03v3
-M$17 \$25 ui_in[2] ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $37 r0 *1 328.47,287.855 nfet_03v3
+M$37 ua[0] ui_in[3] \$57 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $18 r0 *1 326.17,286.355 nfet_03v3
-M$18 \$23 ui_in[3] ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $38 r0 *1 330.77,287.855 nfet_03v3
+M$38 \$58 ui_in[3] ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $21 r0 *1 330.77,283.355 nfet_03v3
-M$21 \$17 \$I66 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $39 r0 *1 333.07,287.855 nfet_03v3
+M$39 \$59 \$63 \$58 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $22 r0 *1 326.17,283.355 nfet_03v3
-M$22 \$15 \$I64 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $40 r0 *1 335.37,287.855 nfet_03v3
+M$40 \$60 \$62 \$59 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $23 r0 *1 330.77,281.855 nfet_03v3
-M$23 \$17 \$I58 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $41 r0 *1 319.27,289.355 nfet_03v3
+M$41 \$55 \$68 \$66 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $24 r0 *1 326.17,281.855 nfet_03v3
-M$24 \$15 \$I56 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $42 r0 *1 321.57,289.355 nfet_03v3
+M$42 \$56 \$69 \$55 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $25 r0 *1 328.47,298.355 nfet_03v3
-M$25 ua[0] \$I144 \$77 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $44 r0 *1 326.17,289.355 nfet_03v3
+M$44 \$57 \$70 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $26 r0 *1 323.87,298.355 nfet_03v3
-M$26 ua[0] \$I142 \$75 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $47 r0 *1 333.07,289.355 nfet_03v3
+M$47 \$59 \$71 \$58 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $27 r0 *1 328.47,296.855 nfet_03v3
-M$27 ua[0] \$I136 \$77 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $48 r0 *1 335.37,289.355 nfet_03v3
+M$48 \$67 \$72 \$59 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $28 r0 *1 323.87,296.855 nfet_03v3
-M$28 ua[0] \$I134 \$75 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $49 r0 *1 319.27,290.855 nfet_03v3
+M$49 \$73 \$81 \$78 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $29 r0 *1 328.47,295.355 nfet_03v3
-M$29 ua[0] ui_in[3] \$62 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $50 r0 *1 321.57,290.855 nfet_03v3
+M$50 \$74 \$82 \$73 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $51 r0 *1 323.87,290.855 nfet_03v3
+M$51 ua[0] ui_in[3] \$74 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $30 r0 *1 323.87,295.355 nfet_03v3
-M$30 ua[0] \$85 \$60 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $52 r0 *1 326.17,290.855 nfet_03v3
+M$52 \$75 ui_in[3] ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $33 r0 *1 328.47,292.355 nfet_03v3
-M$33 ua[0] ui_in[1] \$48 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $53 r0 *1 328.47,290.855 nfet_03v3
+M$53 ua[0] \$83 \$75 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $34 r0 *1 323.87,292.355 nfet_03v3
-M$34 ua[0] ui_in[3] \$46 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $54 r0 *1 330.77,290.855 nfet_03v3
+M$54 \$76 \$80 ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $35 r0 *1 328.47,290.855 nfet_03v3
-M$35 ua[0] \$I105 \$48 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $55 r0 *1 333.07,290.855 nfet_03v3
+M$55 \$77 \$84 \$76 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $37 r0 *1 328.47,289.355 nfet_03v3
-M$37 ua[0] ui_in[3] \$34 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $56 r0 *1 335.37,290.855 nfet_03v3
+M$56 \$79 \$85 \$77 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $57 r0 *1 319.27,292.355 nfet_03v3
+M$57 \$73 \$89 \$86 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $58 r0 *1 321.57,292.355 nfet_03v3
+M$58 \$74 \$90 \$73 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $61 r0 *1 328.47,292.355 nfet_03v3
+M$61 ua[0] ui_in[1] \$75 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $63 r0 *1 333.07,292.355 nfet_03v3
+M$63 \$77 \$91 \$76 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $64 r0 *1 335.37,292.355 nfet_03v3
+M$64 \$87 \$92 \$77 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $65 r0 *1 319.27,293.855 nfet_03v3
+M$65 \$94 \$101 \$93 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $66 r0 *1 321.57,293.855 nfet_03v3
+M$66 \$95 \$102 \$94 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $67 r0 *1 323.87,293.855 nfet_03v3
+M$67 ua[0] \$100 \$95 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $38 r0 *1 323.87,289.355 nfet_03v3
-M$38 ua[0] \$57 \$31 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $68 r0 *1 326.17,293.855 nfet_03v3
+M$68 \$96 ui_in[1] ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
++ PS=1.8U PD=1.8U
+* device instance $69 r0 *1 328.47,293.855 nfet_03v3
+M$69 ua[0] ui_in[3] \$96 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $41 r0 *1 328.47,286.355 nfet_03v3
-M$41 ua[0] ui_in[1] \$23 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $42 r0 *1 323.87,286.355 nfet_03v3
-M$42 ua[0] ui_in[3] \$21 VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
+* device instance $70 r0 *1 330.77,293.855 nfet_03v3
+M$70 \$97 ui_in[3] ua[0] VGND nfet_03v3 L=0.56U W=0.92U AS=0.4048P AD=0.4048P
 + PS=3.6U PD=3.6U
-* device instance $43 r0 *1 328.47,284.855 nfet_03v3
-M$43 ua[0] ui_in[0] \$23 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $71 r0 *1 333.07,293.855 nfet_03v3
+M$71 \$98 \$104 \$97 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $45 r0 *1 328.47,283.355 nfet_03v3
-M$45 ua[0] \$I65 \$15 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $72 r0 *1 335.37,293.855 nfet_03v3
+M$72 \$99 \$103 \$98 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $46 r0 *1 323.87,283.355 nfet_03v3
-M$46 ua[0] \$I63 \$13 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $73 r0 *1 319.27,295.355 nfet_03v3
+M$73 \$94 \$108 \$105 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $47 r0 *1 328.47,281.855 nfet_03v3
-M$47 ua[0] \$I57 \$15 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $74 r0 *1 321.57,295.355 nfet_03v3
+M$74 \$95 \$109 \$94 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $48 r0 *1 323.87,281.855 nfet_03v3
-M$48 ua[0] \$I55 \$13 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $76 r0 *1 326.17,295.355 nfet_03v3
+M$76 \$96 ui_in[0] ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $49 r0 *1 319.27,281.855 nfet_03v3
-M$49 \$12 \$I53 \$I749 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $79 r0 *1 333.07,295.355 nfet_03v3
+M$79 \$98 \$110 \$97 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $50 r0 *1 321.57,281.855 nfet_03v3
-M$50 \$13 \$I54 \$12 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $80 r0 *1 335.37,295.355 nfet_03v3
+M$80 \$106 \$107 \$98 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $51 r0 *1 321.57,283.355 nfet_03v3
-M$51 \$13 \$I62 \$12 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $81 r0 *1 319.27,296.855 nfet_03v3
+M$81 \$112 \$119 \$111 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $52 r0 *1 319.27,283.355 nfet_03v3
-M$52 \$12 \$I61 \$I756 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $82 r0 *1 321.57,296.855 nfet_03v3
+M$82 \$113 \$120 \$112 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $53 r0 *1 333.07,283.355 nfet_03v3
-M$53 \$18 \$I67 \$17 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $83 r0 *1 323.87,296.855 nfet_03v3
+M$83 ua[0] \$122 \$113 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $54 r0 *1 333.07,281.855 nfet_03v3
-M$54 \$18 \$I59 \$17 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $84 r0 *1 326.17,296.855 nfet_03v3
+M$84 \$114 \$123 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $55 r0 *1 335.37,283.355 nfet_03v3
-M$55 \$I668 \$I68 \$18 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $85 r0 *1 328.47,296.855 nfet_03v3
+M$85 ua[0] \$125 \$114 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $56 r0 *1 335.37,281.855 nfet_03v3
-M$56 \$I660 \$I60 \$18 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $86 r0 *1 330.77,296.855 nfet_03v3
+M$86 \$115 \$124 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $57 r0 *1 321.57,286.355 nfet_03v3
-M$57 \$21 \$I78 \$20 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $87 r0 *1 333.07,296.855 nfet_03v3
+M$87 \$116 \$121 \$115 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $58 r0 *1 321.57,284.855 nfet_03v3
-M$58 \$21 \$I70 \$20 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $88 r0 *1 335.37,296.855 nfet_03v3
+M$88 \$117 \$118 \$116 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $59 r0 *1 319.27,286.355 nfet_03v3
-M$59 \$20 \$I77 \$I772 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $89 r0 *1 319.27,298.355 nfet_03v3
+M$89 \$112 \$130 \$126 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $60 r0 *1 319.27,284.855 nfet_03v3
-M$60 \$20 \$I69 \$I764 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $90 r0 *1 321.57,298.355 nfet_03v3
+M$90 \$113 \$131 \$112 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $61 r0 *1 333.07,286.355 nfet_03v3
-M$61 \$26 \$I83 \$25 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $91 r0 *1 323.87,298.355 nfet_03v3
+M$91 ua[0] \$132 \$113 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $62 r0 *1 333.07,284.855 nfet_03v3
-M$62 \$26 \$I75 \$25 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $92 r0 *1 326.17,298.355 nfet_03v3
+M$92 \$114 \$133 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $63 r0 *1 335.37,286.355 nfet_03v3
-M$63 \$I684 \$I84 \$26 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $93 r0 *1 328.47,298.355 nfet_03v3
+M$93 ua[0] \$134 \$114 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $64 r0 *1 335.37,284.855 nfet_03v3
-M$64 \$I676 \$I76 \$26 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $94 r0 *1 330.77,298.355 nfet_03v3
+M$94 \$115 \$135 ua[0] VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $65 r0 *1 321.57,289.355 nfet_03v3
-M$65 \$31 \$I94 \$30 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $95 r0 *1 333.07,298.355 nfet_03v3
+M$95 \$116 \$136 \$115 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
-* device instance $66 r0 *1 321.57,287.855 nfet_03v3
-M$66 \$31 \$I86 \$30 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $67 r0 *1 319.27,289.355 nfet_03v3
-M$67 \$30 \$I93 \$I788 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $68 r0 *1 319.27,287.855 nfet_03v3
-M$68 \$30 \$I85 \$I780 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $69 r0 *1 333.07,289.355 nfet_03v3
-M$69 \$37 \$I99 \$36 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $70 r0 *1 333.07,287.855 nfet_03v3
-M$70 \$37 \$I91 \$36 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $71 r0 *1 335.37,289.355 nfet_03v3
-M$71 \$I700 \$I100 \$37 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $72 r0 *1 335.37,287.855 nfet_03v3
-M$72 \$I692 \$I92 \$37 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $73 r0 *1 321.57,292.355 nfet_03v3
-M$73 \$46 \$I110 \$45 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $74 r0 *1 321.57,290.855 nfet_03v3
-M$74 \$46 \$I102 \$45 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $75 r0 *1 319.27,292.355 nfet_03v3
-M$75 \$45 \$I109 \$I804 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $76 r0 *1 319.27,290.855 nfet_03v3
-M$76 \$45 \$I101 \$I796 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $77 r0 *1 333.07,292.355 nfet_03v3
-M$77 \$51 \$I115 \$50 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $78 r0 *1 333.07,290.855 nfet_03v3
-M$78 \$51 \$I107 \$50 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $79 r0 *1 335.37,292.355 nfet_03v3
-M$79 \$I716 \$I116 \$51 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $80 r0 *1 335.37,290.855 nfet_03v3
-M$80 \$I708 \$I108 \$51 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $81 r0 *1 321.57,295.355 nfet_03v3
-M$81 \$60 \$I125 \$59 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $82 r0 *1 321.57,293.855 nfet_03v3
-M$82 \$60 \$I118 \$59 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $83 r0 *1 319.27,295.355 nfet_03v3
-M$83 \$59 \$I124 \$I820 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $84 r0 *1 319.27,293.855 nfet_03v3
-M$84 \$59 \$I117 \$I812 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $85 r0 *1 333.07,295.355 nfet_03v3
-M$85 \$65 \$I130 \$64 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $86 r0 *1 333.07,293.855 nfet_03v3
-M$86 \$65 \$I122 \$64 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $87 r0 *1 335.37,295.355 nfet_03v3
-M$87 \$I732 \$I131 \$65 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $88 r0 *1 335.37,293.855 nfet_03v3
-M$88 \$I724 \$I123 \$65 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $89 r0 *1 321.57,298.355 nfet_03v3
-M$89 \$75 \$I141 \$74 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $90 r0 *1 321.57,296.855 nfet_03v3
-M$90 \$75 \$I133 \$74 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $91 r0 *1 319.27,298.355 nfet_03v3
-M$91 \$74 \$I140 \$I836 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $92 r0 *1 319.27,296.855 nfet_03v3
-M$92 \$74 \$I132 \$I828 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $93 r0 *1 333.07,298.355 nfet_03v3
-M$93 \$80 \$I146 \$79 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $94 r0 *1 333.07,296.855 nfet_03v3
-M$94 \$80 \$I138 \$79 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $95 r0 *1 335.37,298.355 nfet_03v3
-M$95 \$I748 \$I147 \$80 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
-+ PS=1.8U PD=1.8U
-* device instance $96 r0 *1 335.37,296.855 nfet_03v3
-M$96 \$I740 \$I139 \$80 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
+* device instance $96 r0 *1 335.37,298.355 nfet_03v3
+M$96 \$128 \$129 \$116 VGND nfet_03v3 L=0.56U W=0.46U AS=0.2024P AD=0.2024P
 + PS=1.8U PD=1.8U
 .ENDS tt_um_kiterai_current_dac
